@@ -1,3 +1,16 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@media (min-width:800px){
+    .container{
+        background-color:rgb(247, 240, 240) !important;
+    }
+}
+@media (max-width:799px){
+    .container{
+    background-color: rgb(236, 220, 231) !important;
+    }
+}
+
 .margin {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -57,19 +70,34 @@
     border-bottom-right-radius: 10px;
     background: lightpink;
     display: inline;
-    padding: 20px 30px 10px 30px;
+    padding: 0px 40px 0px 40px;
     margin-right: 40px;
     font-size: 2em;
     justify-content: space-around;
     font-family: 'Pacifico', cursive;
-    
+
     transition-property: box-shadow fontsize;
     transition-duration: 400ms;
-    transition-timing-function: ease-in;
+    transition-timing-function: linear;
 }
 
 #about-menu:hover{
     box-shadow: 10px 10px 10px grey;
     font-size: 2.2em;
 
+}
+
+.font1{
+    font-family: 'Pacifico', cursive;
+}
+
+.btn-primary:hover{ 
+    color: #ffffff;
+    background-color: rgb(202, 103, 103);
+    border-color: rgb(255, 255, 255);
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: rgb(77, 25, 25);
+  border-color: rgb(209, 197, 197);
 }
