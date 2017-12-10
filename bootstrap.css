@@ -1,12 +1,12 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 @media (min-width:800px){
-    .container{
+    .c1{
         background-color:rgb(247, 240, 240) !important;
     }
 }
 @media (max-width:799px){
-    .container{
+    .c2{
     background-color: rgb(236, 220, 231) !important;
     }
 }
